@@ -1,0 +1,196 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 60px;
+}
+main{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.top-one{
+    display: flex;
+    align-items: center;
+} 
+
+.half-width{
+    width: 50%;
+}
+
+.top-one img{
+    height: 400px;
+    width: 400px;
+    padding-left: 80px;
+}
+
+.top-one img:hover{
+    transform: scale(1.5) skew(-30deg);
+     transition: transform 1s ease-in-out;
+}
+
+header h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.prebook{
+    padding: 10px 40px;
+    font-size: 15px;
+    text-decoration: none;
+    border-radius: 20px;
+    background-color: #E02C6D;
+    color: white;
+    
+}
+
+.fa-arrow-right{
+    padding-left: 10px;
+}
+
+.fa-star{
+    color: orange;
+    height: 10px;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    height: 10px;
+    
+}
+
+.icon p{
+    padding-left: 10px;
+    
+}
+
+.info p{
+    height: 10px;
+}
+
+.padding-btm{
+    padding-bottom: 10px;
+}
+
+h3{
+    text-align: center;
+    margin: 40px;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+}
+
+.detail{
+    margin: 15px;
+    padding: 10px;
+    height: 480px;
+    width: 300px;
+    box-shadow: 2px 2px 2px 2px rgb(126, 120, 118);
+}
+
+.seemore{
+    padding: 20px;
+    color: #E02C6D;
+    text-decoration: none;
+    position: absolute;
+    right: 100px;
+    
+}
+
+footer{
+    background-color: rgb(13, 7, 41);
+    text-align: center;
+    color: white;
+    height: 150px;
+    padding: 60px;
+}
+
+footer h1, footer p{
+    margin: 10px;
+}
+
+.fa-instagram-square{
+    margin: 5px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 40px;
+    background-color: rgb(33, 30, 54);
+}
+
+.fa-twitter-square{
+    margin: 5px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 40px;
+    background-color: rgb(33, 30, 54);
+}
+
+.fa-youtube-square{
+    margin: 5px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 40px;
+    background-color: rgb(33, 30, 54);
+}
+
+.fa-facebook-square{
+    margin: 5px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 40px;
+    background-color: rgb(33, 30, 54);
+}
+
+.my{
+    background-color: rgb(230, 226, 11);
+    color: rgb(10, 10, 10);
+    margin-top: 50px;
+    height: 350px;
+    width: 100%;
+    font-size: 30px;
+}
+
+.my h3 {
+    margin: 0;
+    padding-top: 20px;
+}
+
+.my p{
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.my-info{
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 10px;
+    background-image: linear-gradient(yellow,red);
+    border-radius: 0 50px 0 0;
+    
+}
+
+.my-detail{
+    display: flex;
+    justify-content: center;
+    
+}
+.my-icon{
+    text-decoration: none;
+    color: rgb(14, 13, 13);
+    margin: 0;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: rgb(214, 211, 44);
+    border-radius: 20px;
+}
+
