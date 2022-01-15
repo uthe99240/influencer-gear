@@ -50,6 +50,11 @@ header h1{
     
 }
 
+.info{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
 .fa-arrow-right{
     padding-left: 10px;
 }
@@ -84,10 +89,7 @@ h3{
     margin: 40px;
 }
 
-.info{
-    display: flex;
-    justify-content: center;
-}
+
 
 .detail{
     margin: 15px;
@@ -154,7 +156,6 @@ footer h1, footer p{
     background-color: rgb(230, 226, 11);
     color: rgb(10, 10, 10);
     margin-top: 50px;
-    height: 350px;
     width: 100%;
     font-size: 30px;
 }
@@ -194,3 +195,31 @@ footer h1, footer p{
     border-radius: 20px;
 }
 
+/* mobile devices */
+
+@media only screen and (max-width:688px) {
+
+    .top-one, .top-two, .my, .alignment{
+        width: 100%;
+    }
+
+    header{
+        text-align: center;
+    }
+    .top-one, .info, .my-detail{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* tablet devices */
+
+@media only screen and (min-width: 689px ) and (max-width: 992px){
+    .top-one,.top-two, .my, .alignment{
+        width: 100%;
+    }
+    .info{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
